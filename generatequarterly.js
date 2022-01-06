@@ -18,7 +18,7 @@ function generateQuarter(startOfQuarter) {
       }
       QCount++;
     };
-    console.log(arr);
+    return arr;
   }
   
   console.log(generateQuarter(0));
